@@ -1,0 +1,30 @@
+             JOGO DA FASE DE GRUPOS
+
+		 Equipe 2  vs  Equipe 1 
+
+EQUIPE 2
+Numero de Kills: 3
+Verdadeiro/Falso: 2
+Alternativa: 1
+Aberto: 0
+Repescagem: 1
+Acertos: 0
+Bonus adquirido: 10
+Pontos de repescagem: 0
+Total de pontos na partida: 60
+
+EQUIPE 1
+Numero de Kills: 5
+Verdadeiro/Falso: 0
+Alternativa: 1
+Aberto: 1
+Repescagem: 0
+Acertos: 0
+Bonus adquirido: 25
+Pontos de repescagem: 5
+Total de pontos na partida: 105
+
+VENCEDOR DA PARTIDA: EQUIPE 2
+_____________________________________________________
+             JOGO DA FASE DE GRUPOS
+
