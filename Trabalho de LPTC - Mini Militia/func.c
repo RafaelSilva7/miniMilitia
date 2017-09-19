@@ -707,14 +707,7 @@ void relatorioFinal(int **equipes, int *finalistas, int numEquipes)
     fprintf(file, "********************************************************************\n\n");
 
     fprintf(file, "         Equipes   Pontos   Kills   Acertos");
-    for(i=0;i<4;i++)
-    {
-        fprintf(file, "\n        -------------------------------------\n");
-        fprintf(file, "        |   %d   |   %3d   |   %2d   |   %2d   |", equipes[finalistas[i]-1][0],
-        equipes[finalistas[i]-1][1], equipes[finalistas[i]-1][2], equipes[finalistas[i]-1][3]);
-    }
-
-    for(i=4;i<numEquipes;i++)
+    for(i=0;i<numEquipes;i++)
     {
         fprintf(file, "\n        -------------------------------------\n");
         fprintf(file, "        |   %d   |   %3d   |   %2d   |   %2d   |", equipes[i][0], equipes[i][1], equipes[i][2], equipes[i][3]);
