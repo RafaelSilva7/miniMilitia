@@ -349,9 +349,9 @@ void partida(int *jogadores, int *pontos, int **equipes, int desempate)
                     somaAcertosRep[i] += numAcertosRep[0];
                     // Pontos Alternativa
                     somaPontos[i] += numAcertos[i][1] * pontos[1];
+                    somaBonus[k] += (numQuestoes[1] - numAcertos[i][1]) * pontos[1];
                     numAcertos[i][1] += numAcertosRep[0];
                     somaAcertos[i] += numAcertos[i][1];
-                    somaBonus[k] += (numQuestoes[1] - numAcertos[i][1]) * pontos[1];
 
                     // Repescagem Aberto
                     somaRepescagem[i] += numAcertosRep[1] * (pontos[2]/2);
@@ -359,9 +359,9 @@ void partida(int *jogadores, int *pontos, int **equipes, int desempate)
                     somaAcertosRep[i] += numAcertosRep[1];
                     // Pontos Aberto
                     somaPontos[i] += numAcertos[i][2] * pontos[2];
+                    somaBonus[k] += (numQuestoes[2] - numAcertos[i][2]) * pontos[0];
                     numAcertos[i][2] += numAcertosRep[1];
                     somaAcertos[i] += numAcertos[i][2];
-                    somaBonus[k] += (numQuestoes[2] - numAcertos[i][2]) * pontos[0];
                 }
             }
         }while(flag == 1);
